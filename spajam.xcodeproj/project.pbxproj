@@ -15,6 +15,8 @@
 		EA5BE5022A907D8700ACB864 /* spajamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5BE5012A907D8700ACB864 /* spajamUITests.swift */; };
 		EA5BE5042A907D8700ACB864 /* spajamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5BE5032A907D8700ACB864 /* spajamUITestsLaunchTests.swift */; };
 		EA5BE5142A90848E00ACB864 /* spajamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5BE5132A90848E00ACB864 /* spajamModel.swift */; };
+		EA5BE5162A90B65B00ACB864 /* OkamotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5BE5152A90B65A00ACB864 /* OkamotoView.swift */; };
+		EA5BE5182A90B72800ACB864 /* KinouchiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5BE5172A90B72800ACB864 /* KinouchiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EA5BE5012A907D8700ACB864 /* spajamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajamUITests.swift; sourceTree = "<group>"; };
 		EA5BE5032A907D8700ACB864 /* spajamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EA5BE5132A90848E00ACB864 /* spajamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajamModel.swift; sourceTree = "<group>"; };
+		EA5BE5152A90B65A00ACB864 /* OkamotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkamotoView.swift; sourceTree = "<group>"; };
+		EA5BE5172A90B72800ACB864 /* KinouchiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinouchiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				EA5BE4E72A907D8500ACB864 /* ContentView.swift */,
+				EA5BE5152A90B65A00ACB864 /* OkamotoView.swift */,
+				EA5BE5172A90B72800ACB864 /* KinouchiView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5BE5182A90B72800ACB864 /* KinouchiView.swift in Sources */,
 				EA5BE4E82A907D8500ACB864 /* ContentView.swift in Sources */,
+				EA5BE5162A90B65B00ACB864 /* OkamotoView.swift in Sources */,
 				EA5BE4E62A907D8500ACB864 /* spajamApp.swift in Sources */,
 				EA5BE5142A90848E00ACB864 /* spajamModel.swift in Sources */,
 			);
