@@ -16,6 +16,7 @@ struct ContentView: View {
         NavigationView {
             Form {
                 TextField("Enter Value", text: $inputValue)
+                TextField("Enter Value2", text: $inputValue)
                 Button("Save to Database") {
                     aiTalk()
                 }
